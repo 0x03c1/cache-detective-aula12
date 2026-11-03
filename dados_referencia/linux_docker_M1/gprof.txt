@@ -1,0 +1,17 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 84.64      3.14     3.14       50     0.06     0.06  soma_colunas
+  6.47      3.38     0.24       50     0.00     0.00  soma_aos
+  5.66      3.59     0.21       50     0.00     0.00  soma_linhas
+  1.62      3.65     0.06        1     0.06     0.06  inicializar_particulas
+  1.08      3.69     0.04       50     0.00     0.00  soma_soa
+  0.54      3.71     0.02        1     0.02     0.02  inicializar_matriz
+  0.00      3.71     0.00      400     0.00     0.00  agora_ns
+  0.00      3.71     0.00       10     0.00     0.00  alocar
+  0.00      3.71     0.00        1     0.00     0.00  alocar_soa
+  0.00      3.71     0.00        1     0.00     0.00  ler_caches
+  0.00      3.71     0.00        1     0.00     0.00  liberar_soa
+  0.00      3.71     0.00        1     0.00     3.71  modo_padroes

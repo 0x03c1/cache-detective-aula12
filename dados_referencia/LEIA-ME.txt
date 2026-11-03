@@ -1,0 +1,16 @@
+DADOS DE REFERENCIA FORNECIDOS PELO PROFESSOR
+=============================================
+Computador: Apple M1 (8 GB RAM). Mesmo codigo da pasta "codigo", sem alteracoes.
+
+linux_docker_M1/   Todas as etapas (make tudo) em Linux Ubuntu 24.04 via Docker
+                   (gcc 13.3, Valgrind 3.22). Ambiente: maquina virtual.
+macos_nativo_M1/   Apenas a Etapa 1 (degraus e padroes), compilada com o clang
+                   do macOS, sem maquina virtual (gprof/Valgrind nao existem no macOS).
+
+Use estes arquivos SOMENTE se nao conseguir executar alguma etapa e declare na
+entrega: "Etapa X: dados de referencia fornecidos pelo professor (Apple M1,
+Docker), pois [motivo]".
+
+Os tempos (Etapas 1 e 2) valem apenas para esta maquina. Os numeros do
+Cachegrind (Etapa 3) sao uma simulacao e devem ser praticamente iguais em
+qualquer computador.

@@ -1,0 +1,28 @@
+==17== Cachegrind, a high-precision tracing profiler
+==17== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==17== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==17== Command: ./cache_detective perfil
+==17== 
+
+=== CACHE DETECTIVE: PADROES (modo perfil, para o Cachegrind) ===
+ Matriz: 1000 x 1000 ints (3.8 MB) | Particulas: 200000 (AoS 12.2 MB, campo x em SoA 1.5 MB)
+ Repeticoes: 1
+
+ Verificacao: somas linhas/colunas IGUAIS (ok), AoS/SoA IGUAIS (ok)
+
+==17== 
+==17== I refs:        28,903,890
+==17== I1  misses:         1,985
+==17== LLi misses:         1,492
+==17== I1  miss rate:       0.01%
+==17== LLi miss rate:       0.01%
+==17== 
+==17== D refs:         8,279,115  (4,052,276 rd   + 4,226,839 wr)
+==17== D1  misses:     1,817,786  (1,292,114 rd   +   525,672 wr)
+==17== LLd misses:       812,463  (  349,283 rd   +   463,180 wr)
+==17== D1  miss rate:       22.0% (     31.9%     +      12.4%  )
+==17== LLd miss rate:        9.8% (      8.6%     +      11.0%  )
+==17== 
+==17== LL refs:        1,819,771  (1,294,099 rd   +   525,672 wr)
+==17== LL misses:        813,955  (  350,775 rd   +   463,180 wr)
+==17== LL miss rate:         2.2% (      1.1%     +      11.0%  )

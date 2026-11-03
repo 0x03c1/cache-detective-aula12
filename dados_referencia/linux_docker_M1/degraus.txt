@@ -1,0 +1,26 @@
+
+=== CACHE DETECTIVE: DEGRAUS (medicao real) ===
+ Caches informadas pelo sistema:  L1d = 128 KB  L2 = 12 MB  L3 = 64 MB
+ Acessos por medicao: 8388608 | repeticoes: 5 (vale a mediana)
+
+   Tamanho | Sequencial (ns) | Aleatorio (ns) |    Razao
+ ----------+-----------------+----------------+---------
+      4 KB |            0.95 |           0.94 |     1.0x
+      8 KB |            0.94 |           0.94 |     1.0x
+     16 KB |            0.94 |           0.94 |     1.0x
+     32 KB |            0.95 |           0.94 |     1.0x
+     64 KB |            0.94 |           0.94 |     1.0x
+    128 KB |            0.94 |           0.95 |     1.0x
+    256 KB |            1.20 |           5.40 |     4.5x
+    512 KB |            1.18 |           5.49 |     4.7x
+      1 MB |            1.76 |           6.22 |     3.5x
+      2 MB |            1.69 |           6.84 |     4.1x
+      4 MB |            1.73 |           7.24 |     4.2x
+      8 MB |            1.84 |          10.13 |     5.5x
+     16 MB |            1.91 |          35.89 |    18.8x
+     32 MB |            1.82 |         100.74 |    55.3x
+     64 MB |            2.18 |         115.18 |    52.9x
+    128 MB |            1.83 |         134.31 |    73.4x
+
+ Arquivos: resultados/degraus.csv  e  resultados/degraus.svg
+

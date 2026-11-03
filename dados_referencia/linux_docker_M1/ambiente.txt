@@ -1,0 +1,21 @@
+Verificando ferramentas...
+  [ok] gcc      13.3.0
+  [ok] make
+  [ok] gprof
+  [ok] valgrind valgrind-3.22.0
+  [ok] lscpu
+  Ambiente: container Docker (declare isso no relatorio)
+--- Processador e caches ---
+Architecture:                            aarch64
+CPU(s):                                  8
+Model name:                              -
+CPU(s) scaling MHz:                      100%
+L1d cache:                               1 MiB (8 instances)
+L1i cache:                               1.5 MiB (8 instances)
+L2 cache:                                24 MiB (2 instances)
+L3 cache:                                64 MiB (1 instance)
+--- Linha de cache (bytes) ---
+64
+--- Sistema / compilador ---
+Linux 7.2.12-orbstack-00394-gbecdd6130068
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0

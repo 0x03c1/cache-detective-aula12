@@ -1,0 +1,5 @@
+padrao;mediana_ms;minimo_ms;maximo_ms;soma_verificacao
+Matriz por linhas;5.614;5.295;7.534;72000000
+Matriz por colunas;45.686;42.497;72.834;72000000
+Particulas AoS;2.821;2.164;9.753;99000000
+Particulas SoA;0.497;0.477;1.817;99000000

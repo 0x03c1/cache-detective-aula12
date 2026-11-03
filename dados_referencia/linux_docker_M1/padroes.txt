@@ -1,0 +1,18 @@
+
+=== CACHE DETECTIVE: PADROES (medicao real) ===
+ Matriz: 4000 x 4000 ints (61.0 MB) | Particulas: 2000000 (AoS 122.1 MB, campo x em SoA 15.3 MB)
+ Repeticoes: 7
+
+ Padrao                 | Mediana ms |  Minimo ms |  Maximo ms
+ -----------------------+------------+------------+-----------
+ Matriz por linhas      |       5.57 |       5.26 |      18.27
+ Matriz por colunas     |      66.71 |      61.78 |     370.79
+ Particulas AoS         |       4.35 |       2.86 |      25.89
+ Particulas SoA         |       0.73 |       0.51 |       3.85
+
+ Razao colunas / linhas : 11.97x
+ Razao AoS / SoA        : 5.96x
+
+ Arquivo: resultados/padroes.csv
+ Verificacao: somas linhas/colunas IGUAIS (ok), AoS/SoA IGUAIS (ok)
+

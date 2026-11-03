@@ -1,0 +1,9 @@
+ProductName:		macOS
+ProductVersion:		27.2
+BuildVersion:		26B123
+CPU: Apple M1
+L1d (P-core): 131072 bytes
+L2 (P-cores): 12582912 bytes
+Linha: 128 bytes
+Apple clang version 21.0.0 (clang-2100.4.1.1)
+Compilacao: cc -O1 -g -std=c11
