@@ -1,0 +1,10 @@
+{
+  "name": "CACHE DETECTIVE: Aula 12 (Infraestrutura de Hardware)",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "hostRequirements": { "cpus": 2 },
+  "postCreateCommand": "sudo apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y build-essential valgrind python3 zip && echo 'Ferramentas instaladas.'",
+  "postAttachCommand": "echo '' && echo '=== CACHE DETECTIVE pronto! No terminal, digite:  cd codigo && make verificar ===' && echo ''",
+  "customizations": {
+    "codespaces": { "openFiles": ["README.md"] }
+  }
+}
